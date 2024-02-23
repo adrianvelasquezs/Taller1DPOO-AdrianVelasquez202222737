@@ -174,7 +174,7 @@ public class GasolineraTest
 
         // Verificar que los tipos de gasolina en cada surtidor sean correctos
         for( int i = 0; i < 4; i++ )
-        {
+        {       	
             Surtidor surtidor = g2.getSurtidor( i );
             String[] nombresTipos = surtidor.getTiposGasolina( );
             assertEquals( 3, nombresTipos.length, "La cantidad de tipos de gasolina no es correcta" );
